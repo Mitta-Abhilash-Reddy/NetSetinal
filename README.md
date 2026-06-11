@@ -4,7 +4,6 @@
 
 NetSentinel captures and dissects live network traffic at the raw socket level — parsing TCP, UDP, and ICMP packets, detecting active threats (SYN floods, port scans, DNS tunneling), and logging structured telemetry. Built in pure Python with zero external dependencies.
 
-> Evolved from [Demon-Sniffer](https://github.com/errorfiathck/Demon-Sniffer) — fully redesigned with OOP architecture, multi-protocol support, threat detection, and a comprehensive test suite.
 
 ---
 
@@ -194,11 +193,7 @@ NetSentinel/
 
 ---
 
-## Origin
 
-NetSentinel is a ground-up redesign of [Demon-Sniffer by errorfiathck](https://github.com/errorfiathck/Demon-Sniffer). The original provided a working ICMP sniffer in ~150 lines. NetSentinel extends it with full multi-protocol support, an OOP architecture, real-time threat detection, structured logging, and a comprehensive test suite — while keeping the same zero-dependency philosophy.
-
----
 
 ## License
 
